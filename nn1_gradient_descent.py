@@ -15,7 +15,10 @@ plt.plot(X,T,'o-')
 plt.plot(X,Y,'ro-')
 
 """
-	What followd is the creation of the neural network, we first initialize our weight matrices V and W to small random values, after assigning the number of input dimensions, number of hidden units, and the number of outputs
+	What follows is the creation of the neural network.
+	we first initialize our weight matrices V and W to small random values.
+	(after assigning the number of input dimensions, number of hidden units,
+	and the number of outputs)
 	"""
 nInputs = X.shape[1]
 nOutputs = T.shape[1]
